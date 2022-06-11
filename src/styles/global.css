@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap');
+@import '@webpixels/css';
+
+* {
+  padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  background-color: #f9f9ff !important;
+  font-family: 'Roboto', sans-serif;
+}
+
+#theme {
+  display: none;
+}
+#theme:checked ~ * {
+  filter: invert(1);
+}
+
+.App {
+  min-height: 100vh;
+}
+
+.main {
+  min-height: 100vh;
+}
+
+img {
+  object-fit: cover;
+}
+
+/* -------- AUTH ---------- */
+@import url('./auth.css');
+
+/* -------- Header ---------- */
+@import url('./header.css');
+
+/* -------- LOADING ---------- */
+@import url('./loading.css');
+
+/* -------- Avatar ---------- */
+@import url('./avatar.css');
+
+/* -------- Profile ---------- */
+@import url('./profile.css');
+
+/* -------- Home ---------- */
+@import url('./home.css');
+
+/* -------- Admin ---------- */
+@import url('./admin.css');
+
+/* -------- categories ---------- */
+@import url('./categories.css');
+
+/* -------- Status Modal ---------- */
+@import url('./status_modal.css');
+
+/* -------- Comments ---------- */
+@import url('./comments.css');
+
+/* -------- Post Thumb ---------- */
+@import url('./post_thumb.css');
+
+/* -------- Message---------- */
+@import url('./message.css');
+
+/* -------- Category---------- */
+@import url('./categories.css');
+
+/* -------- Icons---------- */
+@import url('./icons.css');
+
+/* -------- Call Modal---------- */
+@import url('./call_modal.css');
+
+/* --------- Responsive ------ */
+@media (max-width: 766px) {
+  .header .navbar .logo {
+    display: none;
+  }
+  .header .menu {
+    width: 100%;
+    height: 40px;
+  }
+  .header .menu .navbar-nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .header .search_form {
+    width: 100%;
+  }
+  .header .logo {
+    margin: auto;
+  }
+  .header .logo h1 {
+    font-size: 1.5rem;
+  }
+
+  .message {
+    height: calc(100vh - 100px);
+  }
+  .right_mess,
+  .left_mess {
+    display: none;
+  }
+  .status {
+    padding: 20px 10px;
+  }
+}
+
+.mode {
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.dropdown-item {
+  transition: all 0.3s ease;
+}
+
+.dropdown-item:hover {
+  background-color: antiquewhite;
+}
+
+@media screen and (max-width: 958px) {
+  .sm__none {
+    display: none;
+  }
+}

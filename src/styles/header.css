@@ -1,0 +1,261 @@
+.header .menu li {
+  opacity: 0.5;
+}
+.header .menu li.active {
+  opacity: 1;
+}
+.header .menu .material-icons {
+  font-size: 30px;
+}
+.header .menu .dropdown-menu {
+  position: absolute;
+  left: inherit;
+  right: 0;
+}
+.header .menu label {
+  cursor: pointer;
+}
+
+.header .menu .notify_length {
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-weight: bold;
+  font-size: 10px;
+}
+
+/* ---------- Header Search -------- */
+.header .search_form {
+  position: relative;
+}
+.header .search_form #search {
+  background: #fafafa;
+  border: 1px solid #ddd;
+  min-width: 250px;
+  width: 100%;
+  outline: none;
+  text-indent: 5px;
+  border-radius: 3px;
+}
+.header .search_form .search_icon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 12px;
+  pointer-events: none;
+}
+.header .search_form .search_icon .material-icons {
+  font-size: 14px;
+  transform: translateY(3px);
+}
+.header .search_form .close_search {
+  position: absolute;
+  top: 0;
+  right: 5px;
+  cursor: pointer;
+  font-weight: 900;
+  color: crimson;
+}
+.header .search_form .users {
+  position: absolute;
+  width: 100%;
+  min-width: 250px;
+  background: #fafafa;
+  max-height: calc(100vh - 150px);
+  overflow: auto;
+  margin-top: 3px;
+  top: 50px;
+}
+.header .search_form .loading {
+  position: absolute;
+  top: 50%;
+  right: 5px;
+  width: 15px;
+  height: 15px;
+  transform: translateY(-50%);
+}
+
+.topbarContainer {
+  height: 50px;
+  width: 100%;
+  background-color: #1877f2;
+  display: flex;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+}
+
+.topbarLeft {
+  flex: 3;
+}
+
+.logo {
+  font-size: 24px;
+  margin-left: 20px;
+  font-weight: bold;
+  color: white;
+  cursor: pointer;
+}
+
+.topbarCenter {
+  flex: 5;
+}
+
+.searchbar {
+  width: 100%;
+  height: 30px;
+  background-color: white;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+}
+
+.searchIcon {
+  font-size: 20px !important;
+  margin-left: 10px;
+}
+
+.searchInput {
+  border: none;
+  width: 70%;
+}
+
+.searchInput:focus {
+  outline: none;
+}
+
+.topbarRight {
+  flex: 4;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  color: white;
+}
+
+.topbarLink {
+  margin-right: 10px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.topbarIcons {
+  display: flex;
+}
+
+.topbarIconItem {
+  margin-right: 15px;
+  cursor: pointer;
+  position: relative;
+}
+
+.topbarIconBadge {
+  width: 15px;
+  height: 15px;
+  background-color: red;
+  border-radius: 50%;
+  color: white;
+  position: absolute;
+  top: -5px;
+  right: -5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+}
+
+.topbarImg {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  object-fit: cover;
+  cursor: pointer;
+}
+
+.topnav {
+  background-color: #ffff;
+  overflow: hidden;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #8d8b8b;
+  font-weight: 800;
+  font-size: 14px;
+  text-transform: uppercase;
+  padding: 14px 16px;
+  text-decoration: none;
+  border-bottom: 3px solid transparent;
+}
+
+.topnav a:hover {
+  color: black;
+  border-bottom: 3px solid red;
+}
+.topnav .active {
+  color: black;
+  border-bottom: 3px solid red;
+}
+
+#navbar-items {
+  width: 20%;
+
+  background-color: #4f4f8a;
+}
+ul#navbar-items li {
+  color: #b6b5b5;
+
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 10px;
+  display: flex;
+  align-items: center;
+}
+.rbc-row-segment {
+  font-size: 12px;
+}
+
+.rbc-event:nth-of-type(1) {
+  margin-bottom: 5px;
+}
+
+.notify__top {
+  transition: all 0.3s ease-in;
+}
+
+.notify__top:hover {
+  background-color: antiquewhite;
+}
+
+@media (max-width: 780px) {
+  #navbar {
+    width: 20%;
+  }
+  #topnavbar {
+    width: 80%;
+  }
+  .text-decoration-none.fs14 {
+    font-size: 10px;
+  }
+  .text-decoration-none .fs13 {
+    font-size: 9px;
+  }
+}
+@media (max-width: 430px) {
+  #navbar-items,
+  #topnavbar {
+    width: 100%;
+    height: 100%;
+  }
+  #navbar-items {
+    padding: 20px;
+  }
+  .topnav a {
+    font-size: 12px;
+    padding: 12px;
+  }
+}
