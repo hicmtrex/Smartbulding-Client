@@ -8,14 +8,10 @@
 
 body {
   background-color: #f9f9ff !important;
-  font-family: 'Roboto', sans-serif;
 }
 
 #theme {
   display: none;
-}
-#theme:checked ~ * {
-  filter: invert(1);
 }
 
 .App {
