@@ -9,6 +9,7 @@ import { FaTrash, FaUserCog } from 'react-icons/fa';
 import { useState } from 'react';
 import axios from 'axios';
 import { useEffect } from 'react';
+import myAxios from '../../../utils/axios';
 
 const UserManagement = () => {
   const { auth, user, suggestions, socket } = useSelector((state) => state);
@@ -24,7 +25,7 @@ const UserManagement = () => {
 
   const getUsersList = async () => {
     try {
-      const res = await axios.get('/api/users', {
+      const res = await myAxios.get('/api/users', {
         headers: {
           Authorization: `${auth.token}`,
         },
@@ -97,34 +98,6 @@ const UserManagement = () => {
         </Table>
       </Card>
     </Container>
-
-    // <div className=''>
-    //   <div className='main__container'>
-    //     <div className='mt-3 '>
-    //       <div className=' justify-content-between align-items-center my-2'>
-    //         {suggestions.loading ? (
-    //           <img
-    //             src={LoadIcon}
-    //             alt='loading'
-    //             className='d-block mx-auto my-4'
-    //           />
-    //         ) : (
-    //           <div className='user  '>
-    //             {suggestions.users.map((user) => (
-    //               <UserCard key={user._id} user={user}>
-    //                 {
-    //                   <div className='dropdown-item' onClick={handleDeleteUser}>
-    //                     <span className='material-icons'>delete_outline</span>
-    //                   </div>
-    //                 }
-    //               </UserCard>
-    //             ))}
-    //           </div>
-    //         )}
-    //       </div>
-    //     </div>
-    //   </div>
-    // </div>
   );
 };
 

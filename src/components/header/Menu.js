@@ -5,6 +5,7 @@ import { logout } from '../../redux/actions/authAction';
 import { GLOBALTYPES } from '../../redux/actions/globalTypes';
 import Avatar from '../Avatar';
 import NotifyModal from '../NotifyModal';
+import { NavDropdown } from 'react-bootstrap';
 
 const Menu = (history) => {
   const navLinks = [
@@ -70,8 +71,26 @@ const Menu = (history) => {
             <NotifyModal />
           </div>
         </li>
-
-        <li className='nav-item dropdown' style={{ opacity: 1 }}>
+        <NavDropdown
+          title={<Avatar src={auth.user.avatar} size='medium-avatar' />}
+          id='basic-nav-dropdown'
+        >
+          <NavDropdown.Item>
+            <Link className='dropdown-item' to={`/profile/${auth.user._id}`}>
+              Profile
+            </Link>
+          </NavDropdown.Item>
+          <NavDropdown.Item>
+            <Link
+              className='dropdown-item'
+              to='/'
+              onClick={() => dispatch(logout())}
+            >
+              Logout
+            </Link>
+          </NavDropdown.Item>
+        </NavDropdown>
+        {/* <li className='nav-item dropdown' style={{ opacity: 1 }}>
           <span
             className='nav-link dropdown-toggle'
             id='navbarDropdown'
@@ -83,19 +102,14 @@ const Menu = (history) => {
             <Avatar src={auth.user.avatar} size='medium-avatar' />
           </span>
 
-          <div className='dropdown-menu' aria-labelledby='navbarDropdown'>
+          <div
+            className='dropdown-menu'
+            aria-labelledby='navbarDropdown'
+            style={{ zIndex: '100' }}
+          >
             <Link className='dropdown-item' to={`/profile/${auth.user._id}`}>
               Profile
             </Link>
-
-            {/* <label htmlFor="theme" className="dropdown-item"
-                    onClick={() => dispatch({
-                        type: GLOBALTYPES.THEME, payload: !theme
-                    })}>
-
-                        {theme ? 'Light mode' : 'Dark mode'}
-                    </label> */}
-
             <div className='dropdown-divider'></div>
             <Link
               className='dropdown-item'
@@ -105,7 +119,7 @@ const Menu = (history) => {
               Logout
             </Link>
           </div>
-        </li>
+        </li> */}
       </ul>
     </div>
   );

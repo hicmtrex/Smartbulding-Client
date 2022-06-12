@@ -6,7 +6,7 @@ import { useSelector } from 'react-redux';
 import LoadIcon from '../images/loading.gif';
 import { Col, Container, Row, Image } from 'react-bootstrap';
 import { useState } from 'react';
-import axios from 'axios';
+import myAxios from '../utils/axios';
 
 let scroll = 0;
 
@@ -23,7 +23,7 @@ const Home = () => {
 
   const getArticlesList = async () => {
     try {
-      const res = await axios.get(
+      const res = await myAxios.get(
         'https://newsapi.org/v2/top-headlines?country=us&apiKey=ae6fed86a98e4f46bb230f7242ad690a'
       );
       if (res.data) {
