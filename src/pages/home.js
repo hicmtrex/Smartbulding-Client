@@ -24,9 +24,7 @@ const Home = () => {
 
   const getArticlesList = async () => {
     try {
-      const res = await axios.get(
-        `https://newsapi.org/v2/top-headlines?country=us&apiKey=${process.env.API_KEY}`
-      );
+      const res = await axios.get('https://newsapi.org/v2/top-headlines?country=us&apiKey=ae6fed86a98e4f46bb230f7242ad690a');
       if (res.data) {
         setArticles(res.data.articles);
       }
