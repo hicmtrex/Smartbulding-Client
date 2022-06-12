@@ -7,6 +7,7 @@ import LoadIcon from '../images/loading.gif';
 import { Col, Container, Row, Image } from 'react-bootstrap';
 import { useState } from 'react';
 import myAxios from '../utils/axios';
+import axios from 'axios';
 
 let scroll = 0;
 
@@ -23,8 +24,8 @@ const Home = () => {
 
   const getArticlesList = async () => {
     try {
-      const res = await myAxios.get(
-        'https://newsapi.org/v2/top-headlines?country=us&apiKey=ae6fed86a98e4f46bb230f7242ad690a'
+      const res = await axios.get(
+        `https://newsapi.org/v2/top-headlines?country=us&apiKey=${process.env.API_KEY}`
       );
       if (res.data) {
         setArticles(res.data.articles);
