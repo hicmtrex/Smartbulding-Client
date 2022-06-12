@@ -1,9 +1,7 @@
 import React, { useEffect } from 'react';
-
 import Status from '../components/home/Status';
 import Posts from '../components/home/Posts';
 import RightSideBar from '../components/home/RightSideBar';
-
 import { useSelector } from 'react-redux';
 import LoadIcon from '../images/loading.gif';
 import { Col, Container, Row, Image } from 'react-bootstrap';

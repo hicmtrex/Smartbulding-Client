@@ -3,6 +3,8 @@
   box-sizing: border-box;
   margin: 0;
 }
+@import url(https://unpkg.com/@webpixels/css@1.1.5/dist/index.css);
+@import url('https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.4.0/font/bootstrap-icons.min.css');
 
 body {
   background-color: #f9f9ff !important;
