@@ -1,1 +1,1 @@
-export const BASE_URL = 'https://smartbulding-client.vercel.app';
+export const BASE_URL = 'https://smart--building.herokuapp.com';
