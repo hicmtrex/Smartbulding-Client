@@ -3,19 +3,19 @@
 ## Tech Stack
 hicmtrex/Smartbulding-Client is built on the following main stack:
 
-- [Heroku](https://www.heroku.com) – Platform as a Service
-- [React](https://reactjs.org/) – Javascript UI Libraries
-- [Bootstrap](http://getbootstrap.com/) – Front-End Frameworks
-- [Socket.IO](http://socket.io/) – Realtime Backend / API
 - [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) – Languages
 - [Autoprefixer](https://github.com/postcss/autoprefixer) – CSS Pre-processors / Extensions
+- [Bootstrap](http://getbootstrap.com/) – Front-End Frameworks
 - [PostCSS](https://github.com/postcss/postcss) – CSS Pre-processors / Extensions
+- [React](https://reactjs.org/) – Javascript UI Libraries
 - [React Router](https://github.com/rackt/react-router) – JavaScript Framework Components
-- [Moment.js](http://momentjs.com/) – Javascript Utilities & Libraries
 - [Redux](https://redux.js.org/) – State Management Library
 - [redux-thunk](https://github.com/gaearon/redux-thunk) – State Management Library
-- [axios](https://github.com/mzabriskie/axios) – Javascript Utilities & Libraries
+- [Socket.IO](http://socket.io/) – Realtime Backend / API
+- [Heroku](https://www.heroku.com) – Platform as a Service
 - [LangChain](https://github.com/hwchase17/langchain) – Large Language Model Tools
+- [Moment.js](http://momentjs.com/) – Javascript Utilities & Libraries
+- [axios](https://github.com/mzabriskie/axios) – Javascript Utilities & Libraries
 
 Full tech stack [here](/techstack.md)
 
@@ -25,19 +25,19 @@ Full tech stack [here](/techstack.md)
 ## Tech Stack
 hicmtrex/Smartbulding-Client is built on the following main stack:
 
-- <img width='25' height='25' src='https://img.stackshare.io/service/133/3wgIDj3j.png' alt='Heroku'/> [Heroku](https://www.heroku.com) – Platform as a Service
-- <img width='25' height='25' src='https://img.stackshare.io/service/1020/OYIaJ1KK.png' alt='React'/> [React](https://reactjs.org/) – Javascript UI Libraries
-- <img width='25' height='25' src='https://img.stackshare.io/service/1101/C9QJ7V3X.png' alt='Bootstrap'/> [Bootstrap](http://getbootstrap.com/) – Front-End Frameworks
-- <img width='25' height='25' src='https://img.stackshare.io/service/1161/vI0ZZlhZ_400x400.png' alt='Socket.IO'/> [Socket.IO](http://socket.io/) – Realtime Backend / API
 - <img width='25' height='25' src='https://img.stackshare.io/service/1209/javascript.jpeg' alt='JavaScript'/> [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) – Languages
 - <img width='25' height='25' src='https://img.stackshare.io/service/2202/72d087642cfce6fef6f2dabec5bf49e8_400x400.png' alt='Autoprefixer'/> [Autoprefixer](https://github.com/postcss/autoprefixer) – CSS Pre-processors / Extensions
+- <img width='25' height='25' src='https://img.stackshare.io/service/1101/C9QJ7V3X.png' alt='Bootstrap'/> [Bootstrap](http://getbootstrap.com/) – Front-End Frameworks
 - <img width='25' height='25' src='https://img.stackshare.io/service/3339/rlFcjEdI.png' alt='PostCSS'/> [PostCSS](https://github.com/postcss/postcss) – CSS Pre-processors / Extensions
+- <img width='25' height='25' src='https://img.stackshare.io/service/1020/OYIaJ1KK.png' alt='React'/> [React](https://reactjs.org/) – Javascript UI Libraries
 - <img width='25' height='25' src='https://img.stackshare.io/service/3350/8261421.png' alt='React Router'/> [React Router](https://github.com/rackt/react-router) – JavaScript Framework Components
-- <img width='25' height='25' src='https://img.stackshare.io/service/3643/Xrtdc94q_400x400.png' alt='Moment.js'/> [Moment.js](http://momentjs.com/) – Javascript Utilities & Libraries
 - <img width='25' height='25' src='https://img.stackshare.io/service/4074/13142323.png' alt='Redux'/> [Redux](https://redux.js.org/) – State Management Library
 - <img width='25' height='25' src='https://img.stackshare.io/service/5448/13142323.png' alt='redux-thunk'/> [redux-thunk](https://github.com/gaearon/redux-thunk) – State Management Library
-- <img width='25' height='25' src='https://img.stackshare.io/no-img-open-source.png' alt='axios'/> [axios](https://github.com/mzabriskie/axios) – Javascript Utilities & Libraries
+- <img width='25' height='25' src='https://img.stackshare.io/service/1161/vI0ZZlhZ_400x400.png' alt='Socket.IO'/> [Socket.IO](http://socket.io/) – Realtime Backend / API
+- <img width='25' height='25' src='https://img.stackshare.io/service/133/3wgIDj3j.png' alt='Heroku'/> [Heroku](https://www.heroku.com) – Platform as a Service
 - <img width='25' height='25' src='https://img.stackshare.io/service/48790/default_5b6c6b73f1ff3775c85d2a1ba954cb87e30cbf13.jpg' alt='LangChain'/> [LangChain](https://github.com/hwchase17/langchain) – Large Language Model Tools
+- <img width='25' height='25' src='https://img.stackshare.io/service/3643/Xrtdc94q_400x400.png' alt='Moment.js'/> [Moment.js](http://momentjs.com/) – Javascript Utilities & Libraries
+- <img width='25' height='25' src='https://img.stackshare.io/no-img-open-source.png' alt='axios'/> [axios](https://github.com/mzabriskie/axios) – Javascript Utilities & Libraries
 
 Full tech stack [here](/techstack.md)
 
@@ -48,7 +48,7 @@ Full tech stack [here](/techstack.md)
 # Tech Stack File
 ![](https://img.stackshare.io/repo.svg "repo") [hicmtrex/Smartbulding-Client](https://github.com/hicmtrex/Smartbulding-Client)![](https://img.stackshare.io/public_badge.svg "public")
 <br/><br/>
-|28<br/>Tools used|01/05/24 <br/>Report generated|
+|28<br/>Tools used|02/29/24 <br/>Report generated|
 |------|------|
 </div>
 
